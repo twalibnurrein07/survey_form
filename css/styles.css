@@ -1,0 +1,45 @@
+:root{
+    /* defining variables */
+    --color-white:#f3f3f3;
+    --color-darkblue:#1b1b32;
+    --color-darkblueAlpha:rgba(27, 27, 50, 0.8);
+    --color-green:#37af65;
+}
+body{  
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+   font-size: 18px;
+}
+
+header{
+    text-align: center;
+}
+#survey-form{
+    margin: auto 20rem;
+    background-color: var(--color-darkblue);
+    padding-top: 30px;
+    opacity: 0.5;
+}
+div{
+    margin: 10px 20px; 
+    display: grid;
+    
+}
+label{
+    margin:10px;
+}
+input{
+   border-radius: 5px;
+   margin: 10px;
+}
+.name,.email,.number{
+    grid-template-rows: 45px 60px; 
+}
+.dropdown{
+    grid-template-rows: 60px 60px;
+    margin: auto 5px;
+    max-width: 100%;
+}
+.dropdown p{
+    margin: auto 20px;
+    
+}
